@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Onboard</title>
+</head>
+<body>
+    <h1>Onboard Your Wellness Journey</h1>
+    <form action="/onboard" method="post">
+        <label for="name">Name:</label>
+        <input type="text" name="name" required><br>
+        <label for="age">Age:</label>
+        <input type="number" name="age" required><br>
+        <label for="fitness_level">Fitness Level:</label>
+        <select name="fitness_level">
+            <option value="Beginner">Beginner</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Advanced">Advanced</option>
+        </select><br>
+        <label for="goal">Fitness Goal:</label>
+        <input type="text" name="goal"><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
